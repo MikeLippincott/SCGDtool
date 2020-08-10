@@ -47,7 +47,7 @@ pip install pathlib
 cd /path/of/choice
 ```
 ```
-git clone github.com/MikeLippincott/SCGD
+git clone https://github.com/MikeLippincott/SCGD
 ```
 ### Edit Config File for use See 'Config File Changes'
 
