@@ -41,22 +41,26 @@ pip install pathlib
 ```
 
 # Installation & Usage
-### Bash
+## Bash
+#### Change Directory to path where SCGDtool will be downloaded
 ```
-cd #/path/of/choice
+cd /path/of/choice
 ```
 ```
 git clone github.com/MikeLippincott/SCGD
 ```
+### Edit Config File for use See 'Config File Changes'
+
+Change Direcotry to SCGDtool folder
 ```
-cd SCGD
+cd SCGDtool
 ```
 ```
 python script.py
 ```
 
  
-## Running the tests
+## Config File changes
 Edit the config.ini file for changed output. This script supports up to 10 different concentrions on one plot.
 Change the absolute paths to input and output data in the config. Mute and unmute which concentrations to be graphed and shown in the legend by adding or removing '#' in front of c# in the Colours section of config.
 
